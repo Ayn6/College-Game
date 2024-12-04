@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public Rigidbody rb;
+    public Rigidbody2D rb;
     public float speed = 0.5f;
-    private Vector3 moveVector;
+    private Vector2 moveVector;
 
     private void FixedUpdate()
     {
